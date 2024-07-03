@@ -46,9 +46,9 @@ const CoreTrack = () => {
    
                     return(
                       
-                     <div key={header}>
+                     <div >
 
-<Quarter descripation={item.descripation}header={item.header} number={item.number} />
+<Quarter key={header} descripation={item.descripation}header={item.header} number={item.number} />
                        
                      </div>
   
