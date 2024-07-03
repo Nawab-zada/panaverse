@@ -41,7 +41,7 @@ const CoreTrack = () => {
                 <div className='mt-3'>
                     <Button text='Enroll Now'/>
                 </div >
-                <div className='flex mt-5 gap-3 flex-col md:flex-row  px-13 py-30  gap-y-5 '>
+                <div className='flex mt-5 gap-3 flex-col md:flex-row  px-13 py-30  gap-y-5  'key={header}>
     {CoreTrackdata.map((item ,i)=>{
    
                     return(
