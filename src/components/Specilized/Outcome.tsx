@@ -30,7 +30,7 @@ export const Outcome = () => {
                         {outcomespoint.map((item)=>
                             
                             <div className=' mt-6 mr-2 px-3'>
-                              <h3 className='font-medium  '>
+                              <h3 className='font-medium  ' key={item}>
                                 {item}
                               </h3>
 
