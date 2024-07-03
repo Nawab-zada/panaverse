@@ -8,7 +8,7 @@ const outcomespoint=[
     
 ]
 export const Outcome = () => {
-    const headers=" The Outcome for Participants  of the Program"
+    const headers=" The &#39 Outcome for Participants  of the Program"
   return (
     <section>
         <Wrapper>
